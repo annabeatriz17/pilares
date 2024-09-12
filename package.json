@@ -7,7 +7,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "poo": "node 1-carro/index.js",
-    "encha": "node 2-conta/index.js",
+    "enca": "node 2-conta/index.js",
     "abst": "node 3-ampulheta/index.js",
     "hera": "node 4-pessoa/index.js",
     "poli": "node 5-seres/index.js"
