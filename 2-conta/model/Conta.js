@@ -1,3 +1,16 @@
+class Conta {
+    numeroConta
+    saldo
+    
+    constructor(numeroConta){
+        this.numeroConta = numeroConta
+        this.saldo = 0
+    }
+
+    info(){
+        console.log(`Conta ${this.numeroConta} com saldo ${this.saldo}`)
+    }
+}
 // criação de classe
 
 // definir os atributos da classe
