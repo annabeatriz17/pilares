@@ -1,14 +1,14 @@
 class Conta {
     numeroConta
-    saldo
+    #saldo
     
     constructor(numeroConta){
         this.numeroConta = numeroConta
-        this.saldo = 0
+        this.#saldo = 0
     }
 
     info(){
-        console.log(`Conta ${this.numeroConta} com saldo ${this.saldo}`)
+        console.log(`Conta ${this.numeroConta} com saldo ${this.#saldo}`)
     }
 }
 
