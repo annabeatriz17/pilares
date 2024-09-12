@@ -11,6 +11,10 @@ class Conta {
         console.log(`Conta ${this.numeroConta} com saldo ${this.saldo}`)
     }
 }
+
+export default Conta
+
+
 // criação de classe
 
 // definir os atributos da classe
